@@ -56,7 +56,7 @@ def print_generation(i, population, options):
         print("\tMelhor solução:")
         best = best_solution(population)
         print("\t\t%s" % str(solution_x_y(best)))
-        # print("\t\t%s" % best)
+        print("\t\t%s" % best)
         if not options['print_generation_best_fitness']:
             print("\t\tAptidão: %s" % genetics.solution_fitness(best))
         print()
@@ -65,7 +65,7 @@ def print_generation(i, population, options):
         print("\tPior solução:")
         worst = worst_solution(population)
         print("\t\t%s" % str(solution_x_y(worst)))
-        # print("\t\t%s" % worst)
+        print("\t\t%s" % worst)
         if not options['print_generation_worst_fitness']:
             print("\t\tAptidão: %s" % genetics.solution_fitness(worst))
         print()

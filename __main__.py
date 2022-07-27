@@ -28,16 +28,16 @@ def main():
         "print_best_solution": True,
 
         # Imprimir a pior solução da geração
-        "print_worst_solution": True,
+        "print_worst_solution": False,
 
         # Imprimir a aptidão média
-        "print_generation_fitness_mean": True,
+        "print_generation_fitness_mean": False,
 
         # Imprimir a melhor aptidão
-        "print_generation_best_fitness": True,
+        "print_generation_best_fitness": False,
 
         # Imprimir a pior aptidão
-        "print_generation_worst_fitness": True,
+        "print_generation_worst_fitness": False,
 
         # Intervalo, em gerações, para impressão de detalhes
         "print_interval": 1000 # Imprime detalhes das gerações múltiplas de 1000
